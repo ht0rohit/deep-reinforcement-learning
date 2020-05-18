@@ -36,7 +36,7 @@ To set up your python environment to run the code in this repository, follow the
           cd Deep-Reinforcement-Learning/python
           pip install .
   
-  5. Create an IPython kernel for the deeprl environment.
+  5. Create an [IPython kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the deeprl environment.
     
           python -m ipykernel install --user --name deeprl --display-name "deeprl"
   
