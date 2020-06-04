@@ -6,7 +6,8 @@ The environment of this project is described in [Readme.md](https://github.com/h
 
 In this project, the agent is trained with [Deep Deterministic Policy Gradients (DDPG)](https://towardsdatascience.com/deep-deterministic-policy-gradients-explained-2d94655a9b7b). 
 
-The Actor-Critic learning algorithm is used to represent the policy function independently of the value function. The policy function structure is known as the actor, and the value function structure is referred to as the critic. The actor produces an action given the current state of the environment, and the critic produces a TD (Temporal-Difference) error signal given the state and resultant reward. The output of the critic drives learning in both the actor and the critic.
+`The Actor-Critic learning algorithm is used to represent the policy function independently of the value function. The policy function structure is known as the actor, and the value function structure is referred to as the critic. The actor produces an action given the current state of the environment, and the critic produces a TD (Temporal-Difference) error signal given the state and resultant reward. The output of the critic drives learning in both the actor and the critic.`
+[SOURCE](https://pemami4911.github.io/blog/2016/08/21/ddpg-rl.html)
 
 DDPG uses experience replay to sample batches of uncorrelated experiences to learn upon. It distinguishes b/w local and target models for both the actor and critic, similar to fixed Q-targets in DQN technique. Local models are updated by minimizing losses while these values are partially transferred to target models. It's is an off-policy algorithm and can only be used for environments with continuous action spaces.
 
