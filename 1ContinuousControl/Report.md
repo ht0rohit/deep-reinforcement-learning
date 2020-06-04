@@ -47,7 +47,7 @@ The agent is defined in `agent.py`.
 
 The plot contains information about rewards collected & averaged over last 100 episodes. The environment is considered solved when the average reward is atleast +30 over the last 100 episodes (epochs). The agent solved the environment in 403 episodes with an average reward of 30.07 but can be trained for more episodes to assess if it's actually learning. 
 
-![Plot of Rewards](https://github.com/ht0rohit/Deep-Reinforcement-Learning/blob/master/0ContinuousControl/Assets/rewards.png)
+![Plot of Rewards](https://github.com/ht0rohit/Deep-Reinforcement-Learning/blob/master/1ContinuousControl/Assets/rewards.PNG)
 
 ### Ideas for Future Work
 
